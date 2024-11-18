@@ -1,18 +1,10 @@
-## Getting Started
+## Aplicando Design Petters
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse projetinho é apenas um exemplo de aplicação Design Petters sem consumir APIs.
 
-## Folder Structure
+A ideia é atualizar o status do pedido assim que o cliente fizer o pedido de algum produto.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Realizando pedido (pagamento pendente)
+- Realizando pagamento (pagamento aprovado)
+- Em espera (pedido em transporte)
+- Pedido chegou ao cliente (pedido entregue)
